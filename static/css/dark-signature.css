@@ -258,3 +258,16 @@ main > .section:not([id]) .front-card p{color:var(--signature-sub)}
   .market-card,.application-card,.contact-option{transition:none}
   .market-card:hover,.application-card:hover,.contact-option:hover{transform:none}
 }
+/* Assinatura conceitual institucional, aprovada em 07/11/2026 */
+.hero-concept {
+  margin: 1.05rem 0 0;
+  color: var(--signature-ink);
+  font: 400 clamp(1.13rem, 1.95vw, 1.63rem)/1.4 Georgia, "Times New Roman", serif;
+  letter-spacing: -.015em;
+}
+.hero-concept em { font-style: normal; color: var(--signature-gold); }
+.hero .hero-concept + .hero-lead { margin-top: .75rem; }
+.site-footer .footer-tagline {
+  color: var(--signature-gold);
+  font: 400 clamp(1rem, 1.4vw, 1.2rem)/1.4 Georgia, "Times New Roman", serif;
+}
